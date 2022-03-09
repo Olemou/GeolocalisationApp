@@ -1,0 +1,38 @@
+name: projet_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  shimmer: ^2.0.0
+
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+  flutter_map:
+    path: ./leaflet
+  location: ^4.1.1
+  cupertino_icons: ^1.0.2
+  shimmer: ^2.0.0
+  http: ^0.13.4
+  webfeed: ^0.4.2
+  webview_flutter: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  fancy_bottom_navigation:  
+  hexcolor: ^2.0.5
+  pedantic: ^1.11.0
+  flutter_dropdown: ^1.0.0+hotfix.1
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    
